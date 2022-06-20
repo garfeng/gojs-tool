@@ -3,7 +3,7 @@ package gojs
 type Objects map[string]interface{}
 
 type Runtime interface {
-	Set(string, interface{})
+	Set(string, interface{}) error
 }
 
 type Object interface {

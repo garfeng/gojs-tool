@@ -16,3 +16,6 @@
 modules/
 
 gojs-tool
+
+vendor
+.idea
